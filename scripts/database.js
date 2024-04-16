@@ -16,7 +16,7 @@ const database = {
 
       id: 3,
       name: "Nuraku",
-      power: "miasma field"
+      power: "Miasma Field"
     },
     {
 
