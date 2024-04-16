@@ -10,7 +10,28 @@ const database = {
           name: "Hyperspeed",
           power: "Super speed"
       }
+  ],
+  villains: [
+    {
+
+      id: 3,
+      name: "Nuraku",
+      power: "miasma field"
+    },
+    {
+
+      id: 4,
+      name: "Shredder",
+      power: "Weapon Suit"
+    }
   ]
+}
+{
+
+}
+
+export const getVillains = () => {
+  return database.villains.map(villain => ({...villain}))
 }
 
 export const getHeroes = () => {
